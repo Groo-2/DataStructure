@@ -4,7 +4,7 @@ class parenBalanceChecker:
     def __init__(self):
         self.__stack = LinkedStack()
     
-    def parenBalance(self, s) -> bool:
+    def parenBalance(self, s:str) -> bool:
         left = 0
         right = 0
 
